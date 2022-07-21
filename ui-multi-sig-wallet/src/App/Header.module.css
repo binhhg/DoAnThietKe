@@ -1,0 +1,39 @@
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wapperHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnWapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.btn {
+    margin: 10px 0;
+}
+
+.transactionTitle {
+    font-weight: bolder;
+    font-size: 14px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.btnComfirm {
+    width: 100%;
+}
+
+.titleHeader {
+    font-size: 18px;
+    font-weight: bold;
+}

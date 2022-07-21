@@ -1,0 +1,42 @@
+@import '~antd/dist/antd.css';
+
+.App-main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.ant-tabs-tab {
+    width: 300px !important;
+    display: flex;
+    justify-content: center;
+    background: #eee;
+    margin: 0 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ant-tabs-tab-active {
+    background: #2185d0;
+}
+
+.depositForm {
+    width: 500px;
+    margin: 5px 0
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: white;
+}
+
+hr {
+    color: #eeeeee !important;
+}
